@@ -1,0 +1,108 @@
+.page {
+  min-height: 100vh;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+  color: #222;
+}
+
+.cards {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  border: 3px solid #222;
+  border-radius: 22px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+}
+
+.cardTitle {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.cardTitle.man {
+  color: #2f80ed;
+}
+
+.cardTitle.woman {
+  color: #ff5fa2;
+}
+
+.cardValue {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1;
+  color: #222;
+}
+
+.btnRow {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  border: 2px solid #222;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #222;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  min-width: 90px;
+}
+
+.logBox {
+  width: min(640px, 95vw);
+  border: 3px solid #222;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #ffffff;
+}
+
+.logList {
+  margin: 0;
+  padding-left: 18px;
+  color: #222;
+}
+
+.logItem {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.logEmpty {
+  color: #666;
+  font-size: 14px;
+}
